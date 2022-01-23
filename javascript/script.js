@@ -52,3 +52,44 @@ window.addEventListener('DOMContentLoaded', () => {
 
 });
 
+/**
+ * 
+ */
+function agregaElemento() {
+
+}
+
+/**
+ * Vacia la lista (ul) para poder despues agregar elementos
+ */
+function vaciarLista() {
+
+}
+
+/**
+ * Actualiza el select poniendo el nombre de todas los elementos en listaNombres
+ */
+function actualizaSelect() {
+
+}
+
+/**
+ * Elimina una lista existente
+ */
+function eliminaLista() {
+
+}
+
+/**
+ * Recoge el nombre de las listas y su contenido correspondiente y lo almacena en una cookie
+ */
+function guardaCookies() {
+
+}
+
+/**
+ * Lee las cookies y carga las listas con sus nombres y contenidos determinados
+ */
+function leerCookies() {
+
+}
