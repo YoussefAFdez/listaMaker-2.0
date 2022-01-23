@@ -8,14 +8,14 @@ window.addEventListener('DOMContentLoaded', () => {
     document.getElementById('form').addEventListener('submit', (e) => e.preventDefault());
    
     //Declaracion de variables locales
-    let ddlLista = document.getElementById('ddlLista');
-    let nodoTbEntrada = document.getElementById('tbEntrada');
-    let lista = document.getElementById('lista');
-    let tituloLista = document.getElementById('tituloLista');
-    let btnAgregar = document.getElementById('btnAgregar');
-    let btnNueva = document.getElementById('btnNueva');
-    let btnEliminar = document.getElementById('btnEliminar');
-    let btnGuardar = document.getElementById('btnGuardar');
+    let ddlLista = document.getElementById('ddlLista');             //Select
+    let nodoTbEntrada = document.getElementById('tbEntrada');       //TextBox
+    let lista = document.getElementById('lista');                   //Ul
+    let tituloLista = document.getElementById('tituloLista');       //H2
+    let btnAgregar = document.getElementById('btnAgregar');         //Button
+    let btnNueva = document.getElementById('btnNueva');             //Button
+    let btnEliminar = document.getElementById('btnEliminar');       //Button
+    let btnGuardar = document.getElementById('btnGuardar');         //Button
 
     //Leemos las cookies al comenzar el programa (Descomentar la linea cuando se cree la funcion)
     //leerCookies();
@@ -51,3 +51,4 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
