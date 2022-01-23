@@ -45,7 +45,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     });
 
-    //Cambia de una lista a otra
+    //Cambia de una lista a otra (Modifica la variable seleccionado)
     ddlLista.addEventListener('change', () => {
 
     });
@@ -53,14 +53,25 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 /**
- * 
+ * Agrega el contenido del textbox a la lista (ul)
+ * Encargada: Jaime
  */
-function agregaElemento() {
+function agregaElementoVista() {
 
 }
 
 /**
+ * Agrega el contenido del textbox a listas[]
+ * Encargado: Sheila
+ */
+function agregaElementoModelo() {
+    
+}
+
+/**
  * Vacia la lista (ul) para poder despues agregar elementos
+ * Encargada: Jaime
+ * Extra: Elimina todos los li de la lista
  */
 function vaciarLista() {
 
@@ -68,13 +79,17 @@ function vaciarLista() {
 
 /**
  * Actualiza el select poniendo el nombre de todas los elementos en listaNombres
+ * Encargada: Jaime
+ * Extra: Asignar un value de 0 a n a cada uno de los elementos generados
  */
 function actualizaSelect() {
 
 }
 
 /**
- * Elimina una lista existente
+ * Elimina una lista existente tanto de listaNombres como de Listas
+ * Encargado: Sheila
+ * Extra: Debe llamar a actualizaSelect() al terminar
  */
 function eliminaLista() {
 
@@ -82,6 +97,7 @@ function eliminaLista() {
 
 /**
  * Recoge el nombre de las listas y su contenido correspondiente y lo almacena en una cookie
+ * Encargado: David
  */
 function guardaCookies() {
 
@@ -89,6 +105,7 @@ function guardaCookies() {
 
 /**
  * Lee las cookies y carga las listas con sus nombres y contenidos determinados
+ * Encargado: David
  */
 function leerCookies() {
 
