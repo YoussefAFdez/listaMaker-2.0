@@ -17,10 +17,37 @@ window.addEventListener('DOMContentLoaded', () => {
     let btnEliminar = document.getElementById('btnEliminar');
     let btnGuardar = document.getElementById('btnGuardar');
 
+    //Leemos las cookies al comenzar el programa (Descomentar la linea cuando se cree la funcion)
+    //leerCookies();
+
     //Ocurre cuando se pulsa una tecla dentro del textbox
-    nodoTbEntrada.addEventListener("keypress", () => {
+    nodoTbEntrada.addEventListener('keypress', () => {
+
+    });
+    
+    //Agrega un elemento a la lista
+    btnAgregar.addEventListener('click', () => {
 
     });
 
+    //Crea una nueva lista
+    btnNueva.addEventListener('click', () => {
+
+    });
+
+    //Elimina la lista actual
+    btnEliminar.addEventListener('click', () => {
+
+    });
+
+    //Guarda las listas en cookies
+    btnGuardar.addEventListener('click', () => {
+
+    });
+
+    //Cambia de una lista a otra
+    ddlLista.addEventListener('change', () => {
+
+    });
 
 });
