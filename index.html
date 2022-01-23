@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ListaMaker</title>
+        <link rel="stylesheet" href="css/style.css">
+        <script src="javascript/script.js"></script>
+    </head>
+    <body>
+        <div class="contenido">
+            <h1>ListaMaker</h1> 
+            <h2>Generador y Editor de Listas</h2>
+            <form action="" id="form">
+                <select id="ddlLista">
+                     <option value="-1">Selecciona un elemento de la lista</option>
+                </select>
+                <div id="listaContenedor">
+                     <h3 id="tituloLista">No hay una lista seleccionada</h3>
+                     <ul id="lista">
+                     </ul>
+                </div>
+                <button id="btnNueva" type="button">Nueva Lista</button>
+                <div class="entradaDatos">
+                    <input type="text" id="tbEntrada" />
+                    <button id="btnAgregar" type="button">Agregar</button>
+                </div>
+                <button id="btnGuardar" type="button">Guardar Lista</button>
+                <button id="btnEliminar" type="button">Eliminar Lista</button>
+            </form>
+        </div>
+    </body>
+</html>
